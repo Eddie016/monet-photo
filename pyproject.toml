@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monet-agent"
+version = "0.1.0"
+description = "Turn photos into Claude Monet-style paintings (Gemini image API, FastAPI + web UI)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "python-multipart>=0.0.9",
+  "pillow>=10",
+  "pillow-heif>=0.16",
+  "google-genai>=1.30",
+  "pyyaml>=6",
+  "python-dotenv>=1",
+]
+
+[project.scripts]
+monet = "monet.cli:main"
+monet-web = "monet.server:main"
+
+[tool.setuptools.packages.find]
+include = ["monet*"]
+
+[tool.setuptools.package-data]
+monet = ["presets/*.yaml", "web/*", "refs/**/*"]

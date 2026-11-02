@@ -1,0 +1,10 @@
+id: impression
+name: Plein-air Impression
+works: "Impression, Sunrise (1872) · Woman with a Parasol (1875) · Garden at Sainte-Adresse (1867)"
+best_for: [general, people, garden, beach, street, daylight]
+prompt: |
+  Early-to-mid Impressionist plein-air style, painted outdoors in one sitting.
+  Short, broken, comma-shaped strokes laid side by side instead of blended; colors mixed optically by the eye, not on the palette.
+  Bright, high-key palette: cerulean and cobalt blue, viridian, chrome yellow, vermilion accents, lead white. Shadows are colored (blue, violet, green), never black or grey.
+  Sky and foliage dissolve into flickering dabs; edges soft and lost wherever they meet the light.
+  Figures, if any, are suggested with a few confident strokes — faces simplified to warm patches without detailed features.

@@ -1,0 +1,10 @@
+id: london_fog
+name: London Fog
+works: "Houses of Parliament series (1900–1904) · Charing Cross Bridge (1899–1904)"
+best_for: [fog, mist, river, bridge, city, night, overcast, rain]
+prompt: |
+  London series style: the city seen through thick fog and smoke.
+  Buildings, bridges and boats reduced to flat, ghostly silhouettes in deep purple, indigo and blue-grey.
+  A veiled sun or lights as a burning disc of orange, scarlet or yellow, scattering glittering reflections across the water.
+  Thin, misty, dragged and scumbled paint; soft feathery strokes; everything enveloped in a single unifying atmosphere.
+  Contrast is low except around the light source; detail is sacrificed to mood.

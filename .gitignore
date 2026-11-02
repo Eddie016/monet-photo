@@ -1,0 +1,20 @@
+# secrets — keep only the template
+.env
+.env.*
+!.env.example
+
+# local tooling / build output
+.venv/
+__pycache__/
+*.egg-info/
+.claude/
+*.log
+.DS_Store
+
+# CLI output (photo_<preset>.jpg)
+*_impression.jpg
+*_water_lilies.jpg
+*_rouen_cathedral.jpg
+*_haystacks.jpg
+*_london_fog.jpg
+*_the_magpie.jpg
