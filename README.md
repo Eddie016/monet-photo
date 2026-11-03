@@ -7,14 +7,14 @@ No GPU needed — the painting is done by Google's Gemini image model through it
 
 <table>
   <tr>
-    <th>Photo</th>
-    <th>Painting</th>
-    <th>Another take</th>
+    <th width="33%">Photo</th>
+    <th width="33%">Painting</th>
+    <th width="33%">Another take</th>
   </tr>
   <tr>
-    <td><img src="examples/capitol_photo.jpg" width="260" alt="Photo of the Wisconsin State Capitol at dusk"></td>
-    <td><img src="examples/capitol_painting_1.jpg" width="260" alt="The same view as a Monet-style oil painting"></td>
-    <td><img src="examples/capitol_painting_2.jpg" width="260" alt="A second Monet-style painting of the same view"></td>
+    <td><img src="examples/capitol_photo.jpg" width="100%" alt="Photo of the Wisconsin State Capitol at dusk"></td>
+    <td><img src="examples/capitol_painting_1.jpg" width="100%" alt="The same view as a Monet-style oil painting"></td>
+    <td><img src="examples/capitol_painting_2.jpg" width="100%" alt="A second Monet-style painting of the same view"></td>
   </tr>
 </table>
 
