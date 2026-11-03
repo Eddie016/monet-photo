@@ -5,7 +5,20 @@ Haystacks, London fog, …), get a painting back, compare with a before/after sl
 
 No GPU needed — the painting is done by Google's Gemini image model through its API.
 
-<!-- TODO: before/after gallery from examples/ -->
+<table>
+  <tr>
+    <th>Photo</th>
+    <th>Painting</th>
+    <th>Another take</th>
+  </tr>
+  <tr>
+    <td><img src="examples/capitol_photo.jpg" width="260" alt="Photo of the Wisconsin State Capitol at dusk"></td>
+    <td><img src="examples/capitol_painting_1.jpg" width="260" alt="The same view as a Monet-style oil painting"></td>
+    <td><img src="examples/capitol_painting_2.jpg" width="260" alt="A second Monet-style painting of the same view"></td>
+  </tr>
+</table>
+
+<sub>Wisconsin State Capitol at dusk — iPhone photo in, Gemini image model out. Same photo, two runs.</sub>
 
 ## Run it
 
